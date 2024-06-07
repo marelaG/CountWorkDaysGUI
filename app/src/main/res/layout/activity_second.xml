@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/holidaysTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="List of holidays:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="324dp"
+        android:layout_height="435dp"
+        android:textSize="18sp"
+        android:text="W 2024 roku przypada 13 świąt, które są jednocześnie ustawowo wolnymi dniami od pracy. Są to:\n
+- Nowy Rok\n
+- Święto Trzech Króli\n
+- Wielkanoc\n
+- Poniedziałek Wielkanocny (drugi dzień Wielkiej Nocy)\n
+- Święto Pracy\n
+- Święto Konstytucji 3 Maja\n
+- Zesłanie Ducha Świętego (Zielone Świątki)\n
+- Boże Ciało\n
+- Święto Wojska Polskiego\n
+- Wniebowzięcie Najświętszej Maryi Panny\n
+- Wszystkich Świętych\n
+- Narodowe Święto Niepodległości 1\n
+- Boże Narodzenie\n
+- Drugi dzień Bożego Narodzenia
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <!-- Adjust margin top as needed -->
+
+    <!-- Rest of your layout components -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
